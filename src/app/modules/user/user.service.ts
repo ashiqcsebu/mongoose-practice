@@ -4,6 +4,7 @@ import User from "./user.model";
 export const createUserToDB = async (payload:IUser):Promise<IUser> => {
     const user = new User(payload);
     await user.save()
+    console.log(user.fullName())
     return user;
 };
 
