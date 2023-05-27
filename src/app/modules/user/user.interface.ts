@@ -19,10 +19,6 @@ import { HydratedDocument, Model } from "mongoose";
     permanentAddress: string;
 }
 
-//static
-// interface UserModel extends Model<IUser> {
-//     myStaticMethod(): IUser[];
-//   }
 
   //instance method
 export interface IUserMethods {
